@@ -1,0 +1,33 @@
+==========================================
+ILI9341 LCD/Touch Module Cheat Sheet
+==========================================
+
+# Note: i will be using white ( 255, 255, 255) as the color example
+
+
+
+
+1. Background
+--------------
+
+display.clear(color565(255, 255, 255)) > changes background color
+display.cleanup() > only works if something has been displayed prior, from what i can see it only does it if its the last line of display
+
+
+2. Draw
+--------------
+
+    # text color comes first, background color second
+display.draw_text8x8(x, y, "text", color565(255, 255, 128), color565(64, 64, 64))
+    # middle seems to be x = 100 for text
+    # start possition is from first letter
+
+display.draw_line(x1, y1, x2, y2, color565(255, 255, 128))
+
+# x1 / y1 > starting point
+# x2 / y2 > ending points
+
+
+3. touch
+--------------
+
