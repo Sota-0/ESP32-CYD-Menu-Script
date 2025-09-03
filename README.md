@@ -14,3 +14,7 @@ files to load onto board:
 /init.py
 
 you may need to build a boot.py to launch the main.py or rename the main.py to boot.py so micropython knows to run it on startup
+
+Expected Output
+
+![IMG_6086](https://github.com/user-attachments/assets/943311c8-90b7-4518-aaf2-6c40d3783f25)
